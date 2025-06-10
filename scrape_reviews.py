@@ -48,3 +48,5 @@ df_clean = df_clean[['review', 'rating', 'date', 'bank', 'source']]
 # Save cleaned data
 df_clean.to_csv('reviews_clean.csv', index=False)
 print("Preprocessing completed! Cleaned reviews saved to reviews_clean.csv.")
+
+# feat: add preprocessing and cleaning for scraped reviews
